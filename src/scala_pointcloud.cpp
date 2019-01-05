@@ -86,6 +86,7 @@ public:
     {
         std::vector<ibeosdk::ObjectScala2271> object_points = objectList->getObjects();
         objectArray.objects.clear();
+        object.contour.clear();
         std::cout << "object num: " << object_points.size() << std::endl;
 
         for(int i =0; i<object_points.size();++i)
