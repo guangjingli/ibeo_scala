@@ -97,7 +97,7 @@ public:
             lux_object_.object_box_center.y = object_points.at(i).getObjectBoxCenter().getY() / 100.0;
             lux_object_.object_box_size.x = object_points.at(i).getObjectBoxSizeX() / 100.0;
             lux_object_.object_box_size.y = object_points.at(i).getObjectBoxSizeY() / 100.0;
-            lux_object_.object_box_orientation = object_points.at(i).getObjectBoxOrientation() / 100.0;
+            lux_object_.object_box_orientation = object_points.at(i).getObjectBoxOrientation() / 32.0;
             //lux_object_.object_box_orientation_absolute
             lux_object_.absolute_velocity.x = object_points.at(i).getAbsoluteVelocity().getX() / 100.0;
             lux_object_.absolute_velocity.y = object_points.at(i).getAbsoluteVelocity().getY() / 100.0;
